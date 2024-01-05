@@ -1,0 +1,146 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background: rgb(54, 109, 188);
+    background: -webkit-linear-gradient(to right, rgb(3, 31, 61), rgb(2, 27, 63), rgb(77, 77, 168));
+    background: linear-gradient(to right, rgb(17, 40, 62), rgb(54, 109, 188), rgb(10, 10, 82));
+    color: #ffffff;
+}
+
+/* General Styles */
+.chat {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.card {
+    height: 500px;
+    border-radius: 15px !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Header Styles */
+.card-header {
+    border-radius: 15px 15px 0 0 !important;
+    border-bottom: 0 !important;
+}
+
+/* Footer Styles */
+.card-footer {
+    border-radius: 0 0 15px 15px !important;
+    border-top: 0 !important;
+}
+
+/* Search Styles */
+.search {
+    border-radius: 15px 0 0 15px !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border: 0 !important;
+    color: white !important;
+}
+
+.search:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+/* Message Input Styles */
+.type_msg {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border: 0 !important;
+    color: white !important;
+    height: 60px !important;
+    overflow-y: auto;
+}
+
+.type_msg:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+/* Button Styles */
+.attach_btn,
+.send_btn,
+.search_btn {
+    border-radius: 15px 0 0 15px !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border: 0 !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+.send_btn {
+    border-radius: 0 15px 15px 0 !important;
+}
+
+.search_btn {
+    border-radius: 0 15px 15px 0 !important;
+}
+
+/* Contacts Styles */
+.contacts,
+.contacts li {
+    list-style: none;
+    padding: 0;
+    width: 100% !important;
+    margin-bottom: 15px !important;
+}
+
+.active {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* User Image Styles */
+.user_img,
+.user_img_msg {
+    height: 70px;
+    width: 70px;
+    border: 1.5px solid #f5f6fa;
+}
+
+.img_cont,
+.img_cont_msg {
+    position: relative;
+    height: 70px;
+    width: 70px;
+}
+
+/* Online Icon Styles */
+.online_icon {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: #4cd137;
+    border-radius: 50%;
+    bottom: 0.2em;
+    right: 0.4em;
+    border: 1.5px solid white;
+}
+
+.offline {
+    background-color: #c23616 !important;
+}
+
+/* User Info Styles */
+.user_info {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+}
+
+.user_info span {
+    font-size: 20px;
+    color: white;
+}
+
+.user_info p {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 576px) {
+    .contacts_card {
+        margin-bottom: 15px !important;
+    }
+}

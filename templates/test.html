@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        p {
+            margin-top: 20px;
+        }
+
+        strong {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Chatbot Dashboard</h1>
+    <form action="/chat" method="post">
+        <label for="user_query">User Query:</label>
+        <input type="text" name="user_query" id="user_query" required>
+        <button type="submit">Submit</button>
+    </form>
+    <form action="/submit" method="POST">
+        <label for="min_price">Min Price:</label>
+        <input type="text" name="min_price" required>
+        
+        <label for="max_price">Max Price:</label>
+        <input type="text" name="max_price" required>
+
+        <button type="submit">Search</button>
+    </form>
+    <h2>Available Devices:</h2>
+    <ul>
+        {% for device in devices %}
+            <li>{{ device['Device Name'] }} - {{ device['Cleaned_Price'] }} PKR</li>
+        {% endfor %}
+    </ul>
+    {% if user_query %}
+    <p><strong>User Query:</strong> {{ user_query }}</p>
+    {% endif %}
+    {% if response %}
+    <p><strong>Response:</strong> {{ response }}</p>
+    {% endif %}
+</body>
+</html>
