@@ -1,0 +1,5 @@
+This is daraz chat bot for Mobile recommendation. Following Method is used to create this chat bot.
+1. The details of device is retrieved from daraz website after searching keyword mobile. Data of first 160 mobiles is retreived using selenium (including price, specs, rating, reviews e.t.c)
+2. The data is cleaned and all important information (including device name, brand, rating,reviews, specs e.t.c are) stored in csv file as well as SQL data base.
+3. Creating a chat bot that handles all neccessary queries of user (used NLTK to make chatbot interactive with user queries) related to device related to price (e.g samsung device over 35,000 and under 60,000 / device under 50,000 / devices under 50,000 and over 85,000 ) user can also search device based on specs(e.g Redmi phone with 8 GB RAM and 32 MP Camera), rating(e.g device with Rating over 4 star) and can also search on combination of ratings, specs and name(e.g Samsung phone under 58,000 with 8GB RAM 64 MP Camera and rating above 4)
+4. Creating a responsive and visually attractive frontend for Chatbot using HTML/CSS/JavaScript and connected the backend using flask Frame work.
