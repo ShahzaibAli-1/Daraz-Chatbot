@@ -18,10 +18,10 @@ Leveraging Natural Language Toolkit (NLTK), a chat bot is created to handle user
 
 ### 5. User Queries Handling:
 
-Price-based queries: Users can inquire about devices within specific price ranges (e.g., Samsung devices over 35,000 and under 60,000).
-Specification-based queries: Users can search for devices based on specifications (e.g., Redmi phone with 8 GB RAM and 32 MP camera).
-Rating-based queries: Users can explore devices with a specified rating threshold (e.g., devices with a rating over 4 stars).
-Combined queries: Users can perform searches based on a combination of ratings, specifications, and device names (e.g., Show me Redmi mobiles with a 4-star rating, 4 to 8 GB RAM).
+* Price-based queries: Users can inquire about devices within specific price ranges (e.g., Samsung devices over 35,000 and under 60,000).
+* Specification-based queries: Users can search for devices based on specifications (e.g., Redmi phone with 8 GB RAM and 32 MP camera).
+* Rating-based queries: Users can explore devices with a specified rating threshold (e.g., devices with a rating over 4 stars).
+* Combined queries: Users can perform searches based on a combination of ratings, specifications, and device names (e.g., Show me Redmi mobiles with a 4-star rating, 4 to 8 GB RAM).
 
 ### 6. Frontend Development: 
 A responsive and visually appealing frontend is crafted using HTML, CSS, and JavaScript to enhance user interaction and experience.
