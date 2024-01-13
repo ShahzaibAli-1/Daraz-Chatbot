@@ -18,6 +18,10 @@ Leveraging Natural Language Toolkit (NLTK), a chat bot is created to handle user
 
 ### 5. User Queries Handling:
 
+
+https://github.com/Gamer997/Daraz-Chatbot/assets/98121819/b7ce727d-45c1-40e7-af84-e45ebdcf9532
+
+
 * Price-based queries: Users can inquire about devices within specific price ranges (e.g., Samsung devices over 35,000 and under 60,000).
 * Specification-based queries: Users can search for devices based on specifications (e.g., Redmi phone with 8 GB RAM and 32 MP camera).
 * Rating-based queries: Users can explore devices with a specified rating threshold (e.g., devices with a rating over 4 stars).
