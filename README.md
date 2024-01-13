@@ -1,3 +1,6 @@
+
+https://github.com/Gamer997/Daraz-Chatbot/assets/98121819/b7ce727d-45c1-40e7-af84-e45ebdcf9532
+
 ## Project Overview: Daraz Chat Bot for Mobile Recommendation
 
 This project focuses on the development of a sophisticated chat bot tailored for mobile recommendations on the Daraz platform. The methodology employed in creating this chat bot involves meticulous data retrieval, cleaning, and storage processes, providing users with a seamless experience when seeking information about mobile devices.
@@ -19,7 +22,7 @@ Leveraging Natural Language Toolkit (NLTK), a chat bot is created to handle user
 ### 5. User Queries Handling:
 
 
-https://github.com/Gamer997/Daraz-Chatbot/assets/98121819/b7ce727d-45c1-40e7-af84-e45ebdcf9532
+
 
 
 * Price-based queries: Users can inquire about devices within specific price ranges (e.g., Samsung devices over 35,000 and under 60,000).
