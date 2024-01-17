@@ -46,4 +46,6 @@ This project amalgamates advanced web scraping techniques, natural language proc
 ## Video Demo
 Check out the video demo of the Daraz Chat Bot in action: [Daraz Chat Bot Video Demo](https://github.com/Gamer997/Daraz-Chatbot/assets/98121819/b7ce727d-45c1-40e7-af84-e45ebdcf9532)
 
+https://github.com/Gamer997/Daraz-Chatbot/assets/98121819/b7ce727d-45c1-40e7-af84-e45ebdcf9532
+
 Feel free to explore the code and contribute to the enhancement of this mobile recommendation system!
