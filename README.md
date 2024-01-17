@@ -44,7 +44,9 @@ The frontend is seamlessly connected to the backend using the Flask framework, e
 This project amalgamates advanced web scraping techniques, natural language processing, and web development to provide users with an intuitive and effective mobile recommendation system on the Daraz platform.
 
 ## Video Demo
-Check out the video demo of the Daraz Chat Bot in action: [Daraz Chat Bot Video Demo](https://github.com/Gamer997/Daraz-Chatbot/assets/98121819/b7ce727d-45c1-40e7-af84-e45ebdcf9532)
+
+Check out the video demo of the Daraz Chat Bot in action:
+
 
 https://github.com/Gamer997/Daraz-Chatbot/assets/98121819/b7ce727d-45c1-40e7-af84-e45ebdcf9532
 
